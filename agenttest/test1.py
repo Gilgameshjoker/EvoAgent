@@ -38,10 +38,10 @@ app = workflow.compile()
 
 
 # 多轮对话
-state = {"messages": [], "user_name": "小明", "conversation_count": 0}
+state = {"messages": [], "user_name": "小红", "conversation_count": 0}
 
 conversations = [
-    "你好，我是小明",
+    "你好，我是小红",
     "我刚才说我叫什么？",
     "帮我推荐一本Python书"
 ]
