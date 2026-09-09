@@ -1,0 +1,41 @@
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+env/
+*.venv/
+
+# 环境密钥（非常重要，防止泄露API Key、Webhook Secret）
+.env
+.env.local
+.env.*.local
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE配置
+.idea/
+.vscode/
+*.iml
+
+# 日志
+*.log
+
+# pytest缓存
+.pytest_cache/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 大二进制/可执行文件
+*.exe
+*.msi
